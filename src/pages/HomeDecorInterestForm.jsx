@@ -28,7 +28,7 @@ export default function HomeDecorInterestForm() {
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="text-center">
               <h1 className="text-4xl font-kaisei text-[#C2BBBB] font-light">
-                Townsend <span className="text-[#D4A538]">&</span> Cherry™
+                Townsend <span className="text-[#D4A538]">&</span> Cherry
               </h1>
               <p className="text-sm uppercase tracking-wide text-[#C2BBBB] mt-2 font-kaisei">
                 — HOME DECOR —
