@@ -51,18 +51,27 @@ export default function HomeDecorInterestForm() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-10 bg-[#faf7f3] text-[#3a2f2a] font-kaisei">
       <div className="max-w-sm w-full text-center">
+
+        {/* <h1 className="text-3xl font-semibold mb-4 text-[#8C004A]">
+          Townsend <span className="text-[#D4A538]">&</span> Cherry™
+        </h1> */}
+
+
+
+        
+
+
+       <div className="relative inline-block" >
         <img
-          className=" mx-auto w-[150px] mb-20"
+          className=" mx-auto w-40 h-40 "
           src="/tandch.svg"
           alt="Townsend & Cherry™ Home Decor"
         />
+        <span className=" absolute bottom-0 right-0 text-[10px] text-[#8C004A]>">TM</span>
+        </div>
+        {/* <h2 className="italic font-light">Townsend <span className="text-[#D4A538]">&</span> Cherry™</h2> */}
 
-        <h1 className="text-3xl font-semibold mb-4 text-[#8C004A]">
-          Townsend <span className="text-[#D4A538]">&</span> Cherry™
-        </h1>
-        <h2 className="italic font-light">Welcome!</h2>
-
-        <p className="text-base leading-relaxed  mt-10">
+        <p className="text-sm leading-relaxed  mt-10">
           Every piece begins at my sewing table — and you’re invited into the
           process. Join the newsletter and Instagram for first looks at{" "}
           <span className="text-[#8C004A] font-bold">
@@ -70,21 +79,21 @@ export default function HomeDecorInterestForm() {
           </span>{" "}
           and the next chapter of
         </p>
-        <div className=" font-bold mb-16 text-[#8C004A]">
+        <div className=" font-bold mb-10 text-[#8C004A] mt-5 text-2xl">
           Townsend <span className="text-[#D4A538] ">&</span> Cherry™
         </div>
 
         <ExternalCTALink
-          className="mt-32"
+          className="mt-32 text-2xl"
           href="https://townsendandcherry.etsy.com"
         >
           Shop Our Latest Looks!
         </ExternalCTALink>
-        <div className="mt-12" />
+        <div className="mt-5" />
         <ExternalCTALink href="https://preview.mailerlite.io/forms/2131842/180033246301521319/share">
           Join Our Newsletter!
         </ExternalCTALink>
-        <div className="mt-12" />
+        <div className="mt-5" />
 
         <ExternalCTALink
           className="mt-32"
