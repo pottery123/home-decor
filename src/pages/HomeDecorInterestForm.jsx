@@ -23,6 +23,7 @@ export default function HomeDecorInterestForm() {
 
   return (
     <div className="bg-[#F9F6F2] min-h-screen flex items-center justify-center px-4">
+      
       <div className="max-w-md w-full bg-[#8C004A] text-white p-6 shadow-none">
         {!submitted ? (
           <form onSubmit={handleSubmit} className="space-y-6">
