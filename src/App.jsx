@@ -78,7 +78,7 @@ export default function HomeDecorInterestForm() {
           className="mt-32"
           href="https://townsendandcherry.etsy.com"
         >
-          Shop Our Latest Looks
+          Shop Our Latest Looks!
         </ExternalCTALink>
         <div className="mt-12" />
         <ExternalCTALink href="https://preview.mailerlite.io/forms/2131842/180033246301521319/share">
