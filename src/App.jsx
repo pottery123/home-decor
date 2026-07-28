@@ -51,23 +51,15 @@ export default function HomeDecorInterestForm() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-10 bg-[#faf7f3] text-[#3a2f2a] font-kaisei">
       <div className="max-w-sm w-full text-center">
-
-        {/* <h1 className="text-3xl font-semibold mb-4 text-[#8C004A]">
-          Townsend <span className="text-[#D4A538]">&</span> Cherry™
-        </h1> */}
-
-
-
-        
-
-
-       <div className="relative inline-block" >
-        <img
-          className=" mx-auto w-40 h-40 "
-          src="/tandch.svg"
-          alt="Townsend & Cherry™ Home Decor"
-        />
-        <span className=" absolute bottom-0 right-0 text-[10px] text-[#8C004A]>">TM</span>
+        <div className="relative inline-block">
+          <img
+            className=" mx-auto w-40 h-40 "
+            src="/tandch.svg"
+            alt="Townsend & Cherry™ Home Decor"
+          />
+          <span className=" absolute bottom-0 right-0 text-[10px] text-[#8C004A]">
+            TM
+          </span>
         </div>
         {/* <h2 className="italic font-light">Townsend <span className="text-[#D4A538]">&</span> Cherry™</h2> */}
 
